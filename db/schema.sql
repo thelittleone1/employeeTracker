@@ -1,3 +1,5 @@
+-- Schema to create company_db and tables
+
 DROP DATABASE IF EXISTS company_db;
 CREATE DATABASE company_db;
 
@@ -5,7 +7,7 @@ USE company_db;
 
 CREATE TABLE department (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    NAME VARCHAR(30) NOT NULL DEFAULT " "
+    department_name VARCHAR(30) NOT NULL DEFAULT " "
 );
 
 CREATE TABLE role (
