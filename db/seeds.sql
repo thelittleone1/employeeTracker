@@ -31,6 +31,6 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
 -- Accountant
 ("Troy", "Barnes", 5, 4),
 -- Legal Team Lead
-("Troy", "Barnes", 6, NULL),
+("Pierce", "Hawthorne", 6, NULL),
 -- Lawyer
 ("Shirley", "Bennet", 7, 6);
