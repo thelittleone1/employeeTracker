@@ -7,3 +7,4 @@ const startMenuEl = require("./lib/startMenu");
 
 // Starting command
 startMenuEl();
+
